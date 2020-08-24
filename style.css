@@ -31,11 +31,16 @@ form {
 }
 
 h2 {
-font-family: "Gothic";
-text-align: center;
-letter-spacing: -1px;	
-font-weight: normal;
-font-size: 2.5em;
+	font-family: "Gothic";
+	text-align: center;
+	letter-spacing: -1px;	
+	font-weight: normal;
+	font-size: 2.5em;
+	margin-top: 20px;
+}
+
+hr {
+	margin-bottom: 3em;
 }
 
 .form_group {
@@ -79,8 +84,8 @@ button {
 	margin: 0 auto;
 	font-size: 1em;
 	padding: 10px;
-	color: white;
-	width: 30%;
+	color: white;	
+	width: 130px;
 	border-radius: 5px;
 	outline: none;
 	border: none;
@@ -119,5 +124,9 @@ button:focus, button:hover {
 @media (min-width:576px) {
 	form {
 		width: 500px;
+	}
+
+	button {		
+		width: 30%;
 	}
 }
