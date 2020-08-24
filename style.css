@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: darkgrey;
+}
+
+@font-face {
+	font-family: 'Helvetica Rounded Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Helvetica Rounded Bold'), url('helvetica-rounded-bold-5871d05ead8de.woff');
+	}
+
+form {
+	background: #f1f1f1;
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px 40px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;	
+}
+
+	h2 {
+	font-family: "Century Gothic";
+	text-align: center;
+	letter-spacing: -1px;	
+	font-weight: normal;
+	font-size: 2.5em;
+	}
+
+	.form_group {
+		margin: 30px 0;
+	}
+
+		.form_group label {
+			display: block;
+			margin: 10px 0;
+			font-weight: bold;
+			font-size: 0.8em;
+			font-family: Arial;
+		}
+
+		.form_group input {
+			width: 100%;
+			padding: 20px 5px 20px 40px;			
+			box-shadow: 0 0 5px black;
+			border: 1px solid white;
+			border-radius: 3px;
+			font-size: 1em;
+			font-family: 'Helvetica Rounded Bold';
+			background-color: white;
+			height: 35px;
+		}
+
+		.form_group input:focus {
+			outline: none;
+			box-shadow: 0 0 5px 2px rgb(170, 0, 0);
+		}
+		
+	.form_submit {		
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	button {
+		display: block;		
+		background-color: grey;
+		margin: 0 auto;
+		font-size: .8em;
+		padding: 10px;
+		color: white;
+		width: 30%;
+		border-radius: 5px;
+		outline: none;
+		border: none;
+		cursor: pointer;
+	}
+
+	button:focus, button:hover {
+		background: rgb(170, 0, 0);
+	}
+
+#first_name, #last_name {
+	padding-left: 10px;
+}
+
+#email {
+	background-image: url(text.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+#contact_number {
+	background-image: url(phone.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+#dob {
+	padding-left: 10px;
+}
+
+ {
+}
+
+#country, #origin {
+	padding-left: 10px;
+}
+
+.orange {
+	color: rgb(170, 0, 0);
+}

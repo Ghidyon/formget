@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FormGet</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<form action="" autocomplete="off">
+		<h2>Form<span class="orange">Get</span></h2>
+		<hr>
+		<div class="form_group">
+			<label for="first_name">First Name</label>
+			<input id="first_name" type="text">
+		</div>
+		<div class="form_group">
+			<label for="last_name">Last Name</label>
+			<input id="last_name" type="text">
+		</div>
+		<div class="form_group">
+			<label for="contact_number">Contact Number</label>
+			<input id="contact_number" type="number" min="8" max="14">
+		</div>
+		<div class="form_group">
+			<label for="email">Email</label>
+			<input id="email" type="email" placeholder="example@gmail.com">
+		</div>
+		<div class="form_group">
+			<label for="dob">Date of Birth</label>
+			<input type="date" name="" id="dob">
+		</div>
+		<div class="form_group">
+			<label for="country">Nationality</label>
+			<input list="nationality" id="country">
+			<datalist name="" id="nationality">
+				<option value="Nigeria"></option>
+			</datalist>
+		</div>
+		<div class="form_group">
+			<label for="origin">State of Origin</label>
+			<input list="stateOfOrigin" id="origin">
+			<datalist id="stateOfOrigin">
+				<option value="Abia"></option>
+				<option value="Adamawa"></option>
+				<option value="Akwa Ibom"></option>
+				<option value="Anambra"></option>
+				<option value="Bauchi"></option>
+				<option value="Bayelsa"></option>
+				<option value="Benue"></option>
+				<option value="Borno"></option>
+				<option value="Cross River"></option>
+				<option value="Delta"></option>
+				<option value="Ebonyi"></option>
+				<option value="Edo"></option>
+				<option value="Ekiti"></option>
+				<option value="Enugu"></option>
+				<option value="Gombe"></option>
+				<option value="Imo"></option>
+				<option value="Jigawa"></option>
+				<option value="Kaduna"></option>
+				<option value="Kano"></option>
+				<option value="Kastina"></option>
+				<option value="Kebbi"></option>
+				<option value="Kogi"></option>
+				<option value="Kwara"></option>
+				<option value="Lagos"></option>
+				<option value="Nasarawa"></option>
+				<option value="Niger"></option>
+				<option value="Ogun"></option>
+				<option value="Ondo"></option>
+				<option value="Osun"></option>
+				<option value="Oyo"></option>
+				<option value="Plateau"></option>
+				<option value="Rivers"></option>
+				<option value="Sokoto"></option>
+				<option value="Taraba"></option>
+				<option value="Yobe"></option>
+				<option value="Zamfara"></option>
+			</datalist>
+		</div>
+		<div class="form_submit">
+			<button type="submit">Register</button>
+		</div>
+	</form>
+</body>
+
+</html>
