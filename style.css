@@ -66,9 +66,21 @@ hr {
 	height: 35px;
 }
 
-.form_group input:focus {
+.form_group input:focus, .form_group select:focus {
 	outline: none;
 	box-shadow: 0 0 5px 2px rgb(170, 0, 0);
+}
+
+.form_group select {
+	width: 100%;
+	box-shadow: 0 0 5px black;
+	border: 1px solid white;
+	border-radius: 3px;
+	background-color: white;
+	font-size: 1em;
+	font-family: 'Helvetica Rounded Bold';
+	height: 42px;
+	padding-left: 8px;
 }
 
 .form_submit {		
@@ -91,7 +103,7 @@ button {
 	cursor: pointer;
 }
 
-button:focus, button:hover {
+button:hover {
 	background: gray;
 }
 
@@ -111,7 +123,7 @@ button:focus, button:hover {
 	background-position: 10px;
 }
 
-#dob, #country, #origin {
+#dob{
 	padding-left: 10px;
 }
 
