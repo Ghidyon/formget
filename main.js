@@ -7,7 +7,11 @@ function validate() {
     let dob = document.formGet.dateOfBirth.value;
     let nationality = document.formGet.country.value;
     let origin = document.formGet.origin.value;
-    let limit = Date();
+
+    //Define variables for date conditions
+    let realDate = new Date();
+    let commencedDate = new Date(2020, 7, 29);
+    let deadline = new Date(2020, 7, 31, 11, 59, 59);
 
     //Define conditions for any empty field
     if ((fName, lName, contact, email, dob, nationality, origin == null) || (fName, lName, contact, email, dob, nationality, origin == "")) {
@@ -15,11 +19,15 @@ function validate() {
         return false;
     }
 
-    //Define conditions for registration
-    if (limit.getful) {
+    //Define conditions for registration period
+    if (realDate >= commencedDate && realDate <= deadline) {
         alert('Registration successful');
         return true;
     } else {
         alert('Registration period has ended');
+        return false;
     }
 }
+
+
+
