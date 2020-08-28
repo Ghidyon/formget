@@ -9,8 +9,8 @@ function validate() {
 
     //Define variables for date conditions
     let currentDate = new Date();
-    let commence = new Date(2020, 7, 29);
-    let deadline = new Date(2020, 7, 31, 11, 59, 59);
+    let commence = new Date(2020, 7, 27);
+    let deadline = new Date(2020, 8, 1, 11, 59, 59);
 
     //Define conditions for any empty field
     if (fName == "" && lName == "" && contact == "" && email == "" && dob == "" && origin == "") {
