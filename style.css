@@ -39,6 +39,9 @@ h2 {
 	margin-top: 20px;
 }
 
+marquee {
+	font-family: "Helvetica Rounded Bold";
+}
 hr {
 	margin-bottom: 3em;
 }
